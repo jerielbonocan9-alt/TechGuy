@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TechGuy | High-Performance Gaming Platform</title>
+    <meta
+      name="description"
+      content="TechGuy is a modern gaming performance platform for competitive players, with optimization tools, analytics, coaching workflows, and secure support."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="arena-bg" aria-hidden="true"></canvas>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="TechGuy home">
+        <span class="brand-mark">T</span>
+        <span>TechGuy</span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#tools">Tools</a>
+        <a href="#games">Games</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#support">Support</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button" type="button" aria-label="Open command menu" title="Command menu">
+          <span class="icon">⌘</span>
+        </button>
+        <a class="button button-small" href="#pricing">Get Access</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero section-band">
+        <div class="hero-copy">
+          <p class="eyebrow">Competitive performance suite</p>
+          <h1>TechGuy</h1>
+          <p class="hero-lede">
+            High-performance tools for players who want smoother gameplay, sharper reads, and a setup that keeps up with ranked pressure.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#pricing">Start Playing</a>
+            <a class="button button-ghost" href="#tools">View Toolkit</a>
+          </div>
+          <div class="hero-metrics" aria-label="Platform metrics">
+            <div>
+              <strong>240Hz</strong>
+              <span>Ready profiles</span>
+            </div>
+            <div>
+              <strong>18ms</strong>
+              <span>Input tuning</span>
+            </div>
+            <div>
+              <strong>24/7</strong>
+              <span>Operator support</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="battle-station" aria-label="TechGuy performance dashboard preview">
+          <div class="station-top">
+            <div>
+              <span class="status-dot"></span>
+              <span>LIVE SESSION</span>
+            </div>
+            <span class="mono">EU-WEST / PRIME</span>
+          </div>
+          <div class="station-display">
+            <div class="radar">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="session-panel">
+              <span class="label">FRAME PACING</span>
+              <strong>99.4%</strong>
+              <div class="meter"><span style="width: 92%"></span></div>
+              <span class="label">NETWORK STABILITY</span>
+              <strong>8.7 / 10</strong>
+              <div class="meter meter-cyan"><span style="width: 87%"></span></div>
+            </div>
+          </div>
+          <div class="station-grid">
+            <div>
+              <span class="label">Aim Lab Sync</span>
+              <strong>Active</strong>
+            </div>
+            <div>
+              <span class="label">Overlay</span>
+              <strong>Clean</strong>
+            </div>
+            <div>
+              <span class="label">Patch</span>
+              <strong>6.03</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="tools" class="tools section-band">
+        <div class="section-heading">
+          <p class="eyebrow">Platform tools</p>
+          <h2>Built for ranked sessions, scrims, and repeatable improvement.</h2>
+        </div>
+        <div class="tool-grid">
+          <article class="tool-card">
+            <span class="tool-icon">⚡</span>
+            <h3>FPS Optimizer</h3>
+            <p>Apply game-specific launch profiles, process priority, and clean background loadouts before every match.</p>
+          </article>
+          <article class="tool-card">
+            <span class="tool-icon">◎</span>
+            <h3>Aim Insights</h3>
+            <p>Track flick accuracy, first-shot timing, recoil control, and warmup consistency across your sessions.</p>
+          </article>
+          <article class="tool-card">
+            <span class="tool-icon">▣</span>
+            <h3>Overlay Hub</h3>
+            <p>Keep callouts, timers, and performance telemetry visible in a clean in-game overlay.</p>
+          </article>
+          <article class="tool-card">
+            <span class="tool-icon">✦</span>
+            <h3>Coach Queue</h3>
+            <p>Package VODs, match notes, and stat snapshots for faster review from teammates or coaches.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="games" class="games section-band">
+        <div class="game-copy">
+          <p class="eyebrow">Supported titles</p>
+          <h2>One control center for the games you grind.</h2>
+          <p>
+            TechGuy keeps title presets organized by patch, mode, and hardware profile so your setup feels consistent when the meta shifts.
+          </p>
+        </div>
+        <div class="game-list" aria-label="Supported game presets">
+          <button class="game-pill active" type="button">
+            <span class="game-logo logo-valorant" aria-hidden="true">V</span>
+            <span>VALORANT</span>
+          </button>
+          <button class="game-pill" type="button">
+            <span class="game-logo logo-cs2" aria-hidden="true">CS</span>
+            <span>CS2</span>
+          </button>
+          <button class="game-pill" type="button">
+            <span class="game-logo logo-apex" aria-hidden="true">A</span>
+            <span>Apex</span>
+          </button>
+          <button class="game-pill" type="button">
+            <span class="game-logo logo-fortnite" aria-hidden="true">F</span>
+            <span>Fortnite</span>
+          </button>
+          <button class="game-pill" type="button">
+            <span class="game-logo logo-warzone" aria-hidden="true">WZ</span>
+            <span>Warzone</span>
+          </button>
+          <button class="game-pill" type="button">
+            <span class="game-logo logo-finals" aria-hidden="true">TF</span>
+            <span>The Finals</span>
+          </button>
+        </div>
+      </section>
+
+      <section id="pricing" class="pricing section-band">
+        <div class="section-heading">
+          <p class="eyebrow">Access keys</p>
+          <h2>Choose the run length that fits your season.</h2>
+        </div>
+        <div class="pricing-grid">
+          <article class="price-card">
+            <span class="label">Starter</span>
+            <h3>7 Day Key</h3>
+            <p class="price">$9</p>
+            <p>Short trials, weekend pushes, and quick setup testing.</p>
+            <a class="button button-full" href="#support">Select</a>
+          </article>
+          <article class="price-card featured">
+            <span class="label">Most popular</span>
+            <h3>30 Day Key</h3>
+            <p class="price">$29</p>
+            <p>Full ranked cycles with updates, profiles, and priority help.</p>
+            <a class="button button-full" href="#support">Select</a>
+          </article>
+          <article class="price-card">
+            <span class="label">Squad</span>
+            <h3>Team Pass</h3>
+            <p class="price">$79</p>
+            <p>Five seats for practice blocks, VOD reviews, and team routines.</p>
+            <a class="button button-full" href="#support">Select</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="support" class="support section-band">
+        <div>
+          <p class="eyebrow">Support</p>
+          <h2>Fast setup, clear updates, and human help when your session matters.</h2>
+        </div>
+        <form class="access-form" aria-label="Request access">
+          <label>
+            Gamer tag
+            <input type="text" name="tag" placeholder="shadow#0001" />
+          </label>
+          <label>
+            Platform
+            <select name="platform">
+              <option>Windows PC</option>
+              <option>Cloud PC</option>
+              <option>Team setup</option>
+            </select>
+          </label>
+          <button class="button" type="submit">Request Access</button>
+          <p class="form-note">Demo form only. Connect this to your checkout or Discord workflow.</p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>TechGuy</span>
+      <span>Performance tools for competitive gaming.</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
